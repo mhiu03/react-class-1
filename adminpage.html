@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdminPage</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="adminpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="adminpage.js"></script>
+</head>
+<div>
+
+<div class="container">
+    <!-- menu -->
+  <div class="header">
+    <div>
+      <a class="a0" href="#" style="text-decoration: none;"><b class="a1">Home</b></a>
+    </div>
+
+    <div>
+      <a class="a0" href="#" style="text-decoration: none;"><b class="a2">Admin</b></a>
+    </div>
+
+    <div>
+      <a class="a0" href="#" style="text-decoration: none;"><b class="a3">Log out</b></a>
+      <i class="fa-solid fa-right-from-bracket" style="padding-left: 10px;"></i>
+    </div>
+  </div>
+
+    <div class="DetailSection">
+        <h3>Danh mục</h3>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p type="button" class="btnClass">Manufacturer</p>
+            </li>
+            <li class="list-group-item">
+              <p type="button" class="btnClass">Category</p>
+            </li>
+            <li class="list-group-item">
+              <p type="button" class="btnClass">Product</p>
+            </li>
+            <li class="list-group-item">
+              <p type="button" class="btnClass">Account</p>
+            </li>
+          </ul>
+      
+        <h3>Manufacturers</h3>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p type="button" class="btnClass">SAMSUNG</p>
+            </li>
+            <li class="list-group-item">
+              <p type="button" class="btnClass">APPLE</p>
+            </li>
+            <li class="list-group-item">
+              <p type="button" class="btnClass">XIAOMI</p>
+            </li>
+            <li class="list-group-item">
+              <p type="button" class="btnClass">OPPO</p>
+            </li>
+          </ul>
+      
+        <h3>Categoris</h3>
+                      <div class="panel panel-default">
+                        <div class="panel-body">
+                          <select class="form-control">
+                            <option value="">-- Select Category --</option>
+                            <option value="1">Điện thoại</option>
+                            <option value="2">Tablet</option>
+                            <option value="3">Laptop</option>
+                          </select>
+                          <br />
+                          <button type="button" class="btn-default">Fillter</button>
+                        </div>
+                      </div>
+                    </div>
+    </div>
+
+    <!-- banner -->
+    <div class="button_search">
+        <div class="wrap">
+<form action="" class="search" method="post">
+            <input type="text" class="searchTerm" placeholder="">
+            <button type="submit" class="searchButton">
+                Search
+            </button>
+            </form>
+        </div>
+    </div>
+  <div class="header_left">
+    <div style="padding-bottom: 20px; padding-left: 20px;">
+        <button type="button" class="addnew"><p>Add New</p></button>
+    </div> 
+
+    <div class="list-menu">
+        <table class="table">
+            <tr>
+                <td class="id"><b>Id</b></td>
+                <td class="name"><b>Name</b></td>
+                <td class="price"><b>Price</b></td>
+                <td class="info"><b>Info</b></td>
+                <td class="detail"><b>Detail</b></td>
+                <td class="star"><b>Star</b></td>
+                <td class="image"><b>Image</b></td>              
+                <td class="nxs"><b>NSX</b></td>      
+                <td class="categori"><b>Categori</b></td>           
+                <td class="edit"><b>Edit</b></td>           
+                <td class="delete"><b>Delete</b></td>          
+            </tr>
+        </table>
+    </div>
+
+    <div class="list_end">
+      <ul class="list-end2">
+        <li><button class="q1">1</button></li>
+        <li><button class="q2">2</button></li>
+        <li><button class="q1">3</button></li>
+        <li><button class="q1">4</button></li>
+        <li><button class="q1">5</button></li>
+      </ul>
+    </div> 
+
+  </div>
+</div>
+</body>
+</html>
+
+

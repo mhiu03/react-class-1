@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thegioididong</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="thegioididong.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="banner">
+        <div class="banner1">
+            <div class="div0">
+                <img src="https://cdn.haitrieu.com/wp-content/uploads/2021/11/Logo-The-Gioi-Di-Dong-MWG-B-V.png" style="width: 111px; padding-right: 45px;" alt="">
+            </div>
+
+            <div class="div1">
+                <b class="vti">Home</b>
+            </div>
+
+            <div class="div2">
+                <b class="vti">Adimn</b>
+            </div>
+
+            <div class="div3">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                <b class="vti">Login</b>
+            </div>
+
+            <div class="div4">
+                <i class="fa-solid fa-user"></i>
+                <b class="vti">Sign Up</b>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/03/banner/des12-1920x450.jpg" width="100%" height="450px">
+    </div>
+    <div class="image1">
+        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/03/banner/ip14-720-220-720x220-3.png"
+            width="49.8%" height="210px" >
+        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/03/banner/sdptn720-220-720x220-1.png"
+            width="49.8%" height="210px">
+    </div>
+
+</br>
+    <div id="image-container" >  
+        
+        
+    </div>
+
+    
+    <script language="javaScript">
+        
+        
+
+        $(document).ready(function () {
+            var image_list = [
+                {
+                    url: 'https://cdn1.viettelstore.vn/images/Product/ProductImage/medium/1896224739.jpeg',
+                    name: 'IPhone 14 pro Max',
+                    price: 10000,
+                    manufaturor: 'thegioididong'
+                },
+                {
+                    url: 'https://cdn.tgdd.vn/Products/Images/42/250728/iphone-13-pro-max-silver-600x600.jpg',
+                    name: 'IPhone 13 pro Max',
+                    price: 10000,
+                    manufaturor: 'thegioididong'
+                },
+                {
+                    url: 'https://cdn.tgdd.vn/Products/Images/42/213033/iphone-12-pro-max-xanh-duong-new-600x600-600x600.jpg',
+                    name: 'IPhone 12 pro Max',
+                    price: 10000,
+                    manufaturor: 'thegioididong'
+                },
+                {
+                    url: 'https://cdn.tgdd.vn/Products/Images/42/200533/iphone-11-pro-max-green-600x600.jpg',
+                    name: 'IPhone 11 pro Max',
+                    price: 10000,
+                    manufaturor: 'thegioididong'
+                },
+                {
+                    url: 'https://cdn.tgdd.vn/Products/Images/42/190321/iphone-xs-max-gold-600x600.jpg',
+                    name: 'IPhone Xs Max',
+                    price: 10000,
+                    manufaturor: 'thegioididong'
+                }
+            ]
+
+
+            for (i = 0; i < image_list.length; i++) {
+                var item = image_list[i];
+                $("#image-container").append("<div class='anh'><img class='image' src= " + item.url + "><p class='text'>"
+                    + item.name + "</p><p class='text'>Hãng sản xuất:"
+                    + item.manufaturor +
+                    "</p><p class='text'>Giá: " + item.price + " Đồng </p><i class='fa-solid fa-cart-shopping'></i>  </div>");
+                $("img").addClass("image-content");
+            }
+        })      
+
+    </script>
+</body>
+
+</html>
