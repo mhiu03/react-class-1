@@ -60,7 +60,7 @@
             Detail: "ProductDetail1",
             Star: 5,
             Image: "image1.jpg",
-            NSX: 'SAMSUNG',
+            NSX: `SAMSUNG`,
             Categori: 'Điện Thoại',
             Edit:"Edit",
             Delete:"Delete"
@@ -72,12 +72,12 @@
         $("table").append(`<tr>
             <td class="id">${item.Id}</td>
             <td class="name">${item.Name}</td>
-            <td class="price">${item.price}</td>
-            <td class="info">${item.Infor}</td>
+            <td class="price">${item.Price}</td>
+            <td class="info">${item.Info}</td>
             <td class="detail">${item.Detail}</td>
             <td class="star">${item.Star}</td>
             <td class="image">${item.Image}</td>
-            <td class="nxs">${item.NXS}</td>
+            <td class="nxs">${item.NSX}</td>
             <td class="categori">${item.Categori}</td>
             <td class='edit'>
             <button class="button1">${item.Edit}</button>

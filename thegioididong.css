@@ -1,49 +1,41 @@
+.container{
+    width: 100%;
+}
 .banner{
     font-size: 20px;
     padding: 20px;
     background-color: #ffd400;
-
 }
-
 .banner1{
     display: flex;
     padding-right: 20px;
-
 }
-
 .div2{
     padding-left: 5%;
 }
-
 .div3{
     padding-left: 60%;
 }
-
 .div4{
     padding-left: 45px;
 }
-
-.image{
-    text-align: center;
-
+.js{
+    display: inline-block;
 }
-
-.image{
-    width: 100px;
+li{
+    list-style: none;
+    margin-left: 65px; 
 }
-
-.text{
-    font-size: 20px;
-}
-
-
-
-#image-container{
+.table{
     display: flex;
-    padding-top: 100px;
-    width: 1750px;
+}
+.table_samsung{
+    display: flex;
+}
+.link{
+    text-decoration: none;
+    color: black;
 }
 
-.anh{
-    padding-left: 7%;
-}
+
+
