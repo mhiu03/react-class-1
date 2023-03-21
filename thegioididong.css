@@ -1,9 +1,6 @@
-.container{
-    width: 100%;
-}
 .banner{
     font-size: 20px;
-    padding: 20px;
+    padding: 20px; 
     background-color: #ffd400;
 }
 .banner1{
@@ -35,6 +32,54 @@ li{
 .link{
     text-decoration: none;
     color: black;
+}
+/* Mobile: width < 740px */
+@media only screen and (max-width: 414.40px) {
+    .logo{
+        display: none;
+    }
+    .link{
+        font-size: 10px;
+    }
+    
+    .div3{
+        padding-left: 147px;
+    }    
+    .div4{
+        padding-left: 20px;
+    }
+    .banner{
+        width: 91%;
+    }
+    .img_banner{
+        width: 101.2%;
+        height: 180px;
+    }
+    .image1{
+        display: flex;
+    }
+    .product_ads{
+        width: 50%;
+        height: 105px;
+    }
+    .table{
+        flex-direction: column;
+    }
+    ul{
+        border: 1px solid gainsboro;
+    }
+}
+/* tablet: width >= 740px and width <1024px */
+@media only screen and (min-width: 420px) and (max-width: 1024px) {
+    .div3 {
+        padding-left: 43%;
+    }
+    .image1{
+        display: flex;
+    }
+    li{
+        margin-left: 0px;
+    }
 }
 
 
