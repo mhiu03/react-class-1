@@ -90,8 +90,8 @@
             </form>
         </div>
     </div>
-  <div class="header_left">
-    <div style="padding-bottom: 20px; padding-left: 20px;">
+<div class="header_left">
+    <!-- <div style="padding-bottom: 20px; padding-left: 20px;">
         <button type="button" class="addnew"><p>Add New</p></button>
     </div>
 
@@ -121,9 +121,80 @@
         <li><button class="q1">4</button></li>
         <li><button class="q1">5</button></li>
       </ul>
-    </div> 
+    </div>  -->
+    <div class="button_addnew">
+    <button type="button" class="btn btn-primary open-modal">Add New</button>
+    </div>
+    <table class="table">
+      <thead>
+      <tr>
+      <th class="a1">Id</th>
+      <th class="a1">Name</th>
+      <th class="a1">Price</th>
+      <th class="a1">Info</th>
+      <th class="a1">Detail</th>
+      <th class="a1">Star</th>
+      <th class="a1">Image</th>
+      <th class="a1">NSX</th>
+      <th class="a1">Categori</th>
+      <th class="a1">Edit</th>
+      <th class="a1">Delete</th>
+        <th colspan="2"></th>
+      </tr>
+      </thead>
+      <tbody id="list-items">
 
+      </tbody>
+    </table>
+  <div id="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name">
+      </div>
+      <div class="form-group">
+        <label for="price">Price:</label>
+        <input type="number" class="form-control" id="price">
+      </div>
+      <div class="form-group">
+        <label for="info">Info:</label>
+        <input type="text" class="form-control" id="info">
+      </div>
+      <div class="form-group">
+        <label for="info">Detail:</label>
+        <input type="text" class="form-control" id="detail">
+      </div>
+      <div class="form-group">
+        <label for="info">Star:</label>
+        <input type="text" class="form-control" id="star">
+      </div>
+      <div class="form-group">
+        <label for="info">Image:</label>
+        <input type="text" class="form-control" id="image">
+      </div>
+      <div class="form-group">
+        <label for="info">NSX:</label>
+        <input type="text" class="form-control" id="nsx">
+      </div>
+      <div class="form-group">
+        <label for="info">Categori:</label>
+        <input type="text" class="form-control" id="categori">
+      </div>
+      <button type="button" class="submit-button btn btn-primary open-modal">Submit</button>
+    </div>
   </div>
+
+  <div class="list_end">
+    <ul class="list-end2">
+      <li><button class="q1">1</button></li>
+      <li><button class="q2">2</button></li>
+      <li><button class="q1">3</button></li>
+      <li><button class="q1">4</button></li>
+      <li><button class="q1">5</button></li>
+    </ul>
+  </div>
+
 </div>
 </body>
 </html>

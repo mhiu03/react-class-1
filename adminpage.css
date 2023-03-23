@@ -13,7 +13,7 @@
     padding-left: 80px;
 }
 .a3{
-    padding-left: 1058px;
+    padding-left: 993px;
 }
 
 .wrap{
@@ -170,12 +170,11 @@
     margin-top: 80px;
 }
 .q1{
-    
     width: 32px;
     height: 30px;
     background-color: white;
     border: 1px solid rgb(210, 210, 210);
-    color: blue;
+    color: #05d6f3;
 }
 .q2{
     
@@ -185,7 +184,34 @@
     border: 1px solid rgb(210, 210, 210);
     color: white;
 }
-
-
+button.btn.btn-primary.open-modal{
+    margin-left: 25px;
+    margin-top: 15px;
+    height: 40px;
+    background-color: #9adcf9;
+    color: white;
+    border: 1px;
+    border-radius: 7px;
+    width: 80px;
+}
+.a1{
+    padding-right: 65px;
+}
+button.btn.btn-info.open-modal-orange{
+    background-color: #f1b800;
+    width: 60px;
+    height: 35px;
+    color: white;
+    border: 1px;
+    border-radius: 6px;
+}
+button.btn.btn-info.open-modal-red{
+    background-color: #f10000;
+    width: 60px;
+    height: 35px;
+    color: white;
+    border: 1px;
+    border-radius: 6px;
+}
 
 
